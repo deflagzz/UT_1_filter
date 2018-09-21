@@ -1,0 +1,15 @@
+#ifndef __LED_H
+#define __LED_H	 
+#include "sys.h"
+
+//#define LED0 PAout(8)	// PA8
+//#define LED1 PDout(2)	// PD2	
+
+
+#define LED3 PBout(3)	// PB2	
+void LED_Init(void);//初始化
+
+
+
+		 				    
+#endif
